@@ -271,6 +271,7 @@ defFullHelpText =
   "   :browse[!] [[*]<mod>]       display the names defined by module <mod>\n" ++
   "                               (!: more details; *: all top-level names)\n" ++
   "   :cd <dir>                   change directory to <dir>\n" ++
+  "   :check <module>             *** UNDOCUMENTED ***\n" ++
   "   :cmd <expr>                 run the commands returned by <expr>::IO String\n" ++
   "   :complete <dom> [<rng>] <s> list completions for partial input string\n" ++
   "   :ctags[!] [<file>]          create tags file for Vi (default: \"tags\")\n" ++
@@ -297,6 +298,7 @@ defFullHelpText =
   "   :type-at <loc>              show the type of <loc> of format: \n" ++
   "                               <filename> <line> <col> <end-line> <end-col> <text>\n" ++
   "                               text is used for when the span is out of date\n" ++
+  "   :uses <name>                *** UNDOCUMENTED ***\n" ++
   "   :undef <cmd>                undefine user-defined command :<cmd>\n" ++
   "   :loc-at <loc>               return the location of the identifier at <loc> of format: \n" ++
   "                               <filename> <line> <col> <end-line> <end-col> <text>\n" ++
